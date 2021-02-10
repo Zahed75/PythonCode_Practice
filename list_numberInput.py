@@ -26,6 +26,6 @@ for x in text:
     elif x ==" ":
         CountWords=CountWords+1
 
-print(CountWords)
-print(CountLetters)
-print(CountDigits)
+print("Numnber Of Count words:",CountWords)
+print("Numnber Of Count Letters:",CountLetters)
+print("Numnber Of Count Digits:",CountDigits)
