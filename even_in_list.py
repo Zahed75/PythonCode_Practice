@@ -38,11 +38,23 @@ print("the even number total is",even)
 
 # even(1010, 21, 4, 45, 66, 93)
 
-list1 = [10, 21, 4, 45, 66, 93] 
+# list1 = [10, 21, 4, 45, 66, 93] 
 
 
-for num in list1: 
+# for num in list1: 
 
-	if num % 2 == 0:
-            print(num, end = " ") 
+# 	if num % 2 == 0:
+#             print(num, end = " ") 
 
+
+def even(num):
+    even_num = []
+
+    for i in num:
+
+        if i%2==0:
+            even_num.append(i)
+    print(even_num)
+
+a = [10,20,15,18,23,15,14,22]
+even(a)
