@@ -13,3 +13,7 @@ file=open("student_info.txt","r+") #r+ mane hocche read and write dui ta e acces
 for x in file:
     print(x)
 file.close()
+
+file.open("hello.html","w")
+
+file.write("")
