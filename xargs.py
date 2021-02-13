@@ -1,4 +1,4 @@
-#xargs mane hocche function perameter same rekhe akadin value pass korano
+#xargs mane hocche function perameter same rekhe akadik value pass korano
 
 '''def st_info (*details):
     print(details)
