@@ -18,4 +18,3 @@ if not books:
     print("Sob Sesh hoiya gese")
 
 
-#QUEE FIRST IN FIRST OUT
