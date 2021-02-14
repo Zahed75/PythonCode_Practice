@@ -14,6 +14,7 @@ class info():
 
 zara=info("Zahed",555)
 
+
 zara.display()
 
 

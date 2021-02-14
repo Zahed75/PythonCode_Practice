@@ -1,4 +1,4 @@
-# class is a group of information where all kind info is
+# class is a grou of information where all kind info is
 #  belongs into a class and all of the elemntes are belongs to object
 #class er under e sub-Class thkbe
 class student():
@@ -51,7 +51,7 @@ class family_members():
     School=""
     contact=""
     birth_date=""
-    def display(self)://--nije nijeke call korte pare
+    def display(self):
         print(f"\nName:{self.Name},B_group:{self.B_group},School:{self.School},Contact:{self.contact},birth_date:{self.birth_date}")
 
 
