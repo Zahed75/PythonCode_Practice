@@ -1,10 +1,10 @@
 #named funtion
 
-# def calculate(a,b):
-#    return a*a+2*a*b+b*b
+def calculate(a,b):
+   return a*a+2*a*b+b*b
 
-# print(calculate(10,20))
-# print(calculate(10,200))
+print(calculate(10,20))
+print(calculate(10,200))
 
 #LAMBDA FUNCTION WORk 
 
