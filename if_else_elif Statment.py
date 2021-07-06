@@ -1,44 +1,44 @@
 #pass Failed
-mark=70
-if mark>=30:
-    print("Pass")
+# mark=70
+# if mark>=30:
+#     print("Pass")
 
-if mark<=30:
-    print("Failed")
+# if mark<=30:
+#     print("Failed")
 
 
-mark=70
-if mark<=30:
-    print("Pass")
+# mark=70
+# if mark<=30:
+#     print("Pass")
 
-else:
-    print("Failed")
+# else:
+#     print("Failed")
 
 #largest number
 
-num1 = 34
-num2 = 43
-if num1>num2:
-    print(num1)
+# num1 = 34
+# num2 = 43
+# if num1>num2:
+#     print(num1)
 
-else:
-    print(num2)
+# else:
+#     print(num2)
 
 
 #check even and odd number
 
-num = 4
-if num % 2 ==0:
-    print("even number")
+# num = 4
+# if num % 2 ==0:
+#     print("even number")
 
-else:
-    print("odd number")
+# else:
+#     print("odd number")
 
 
 #check grades
 
 marks=float(input("please enter your marks="))
-if marks>=80:
+if marks>=80 and marks<=100:
     print("A+")
 elif marks>=70:
      print("A")

@@ -2,12 +2,12 @@ class A():
     def display(self):
         print("Im on A Class")
 
-class B(A):
+class B():
     #inherit A
     def display1(self):
         print("Im on B Class")
 
-class C(A,B):
+class C(B,A):
     pass
 
         #inherit A>
@@ -16,4 +16,5 @@ class C(A,B):
    
 
 obj1=C()
-obj1.show()
+obj1.display()
+

@@ -10,8 +10,8 @@ class User:
         self.password = password
  
     def login(self):
-        email = raw_input("Enter email: ")
-        password = raw_input("Enter password: ")
+        email = input("Enter email: ")
+        password = input("Enter password: ")
  
         if email == self.email and password == self.password:
             self.login = True
@@ -36,7 +36,8 @@ class User:
             print("User is not Logged in!")
  
  
-user1 = User("Adam", "adam@testmail.com","12345")
+# user1 = User("Adam", "adam@testmail.com","12345")
+user1 = User()
  
 user1.login()
 user1.profle()
